@@ -98,6 +98,10 @@ func InvModFr(dst *Fr, v *Fr) {
 	hbls.FrInv((*hbls.Fr)(dst), (*hbls.Fr)(v))
 }
 
+func NegModFr(dst *Fr, v *Fr) {
+	hbls.FrNeg((*hbls.Fr)(dst), (*hbls.Fr)(v))
+}
+
 //func SqrModFr(dst *Fr, v *Fr) {
 //	hbls.FrSqr((*hbls.Fr)(dst), (*hbls.Fr)(v))
 //}
