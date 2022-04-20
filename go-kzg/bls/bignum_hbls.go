@@ -102,9 +102,9 @@ func NegModFr(dst *Fr, v *Fr) {
 	hbls.FrNeg((*hbls.Fr)(dst), (*hbls.Fr)(v))
 }
 
-//func SqrModFr(dst *Fr, v *Fr) {
-//	hbls.FrSqr((*hbls.Fr)(dst), (*hbls.Fr)(v))
-//}
+func SqrModFr(dst *Fr, v *Fr) {
+	hbls.FrSqr((*hbls.Fr)(dst), (*hbls.Fr)(v))
+}
 
 func EvalPolyAt(dst *Fr, p []Fr, x *Fr) {
 	if err := hbls.FrEvaluatePolynomial(
