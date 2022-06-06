@@ -1,4 +1,4 @@
-module github.com/aulichney/go-aSVC/go-kzg
+module github.com/protolambda/go-kzg
 
 go 1.15
 
